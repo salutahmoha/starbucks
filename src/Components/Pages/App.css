@@ -1,0 +1,8 @@
+#app{
+    padding-top: 150px;
+}
+@media (max-width: 480px){
+   #app .row{
+    margin-bottom: 30px;
+   }
+}

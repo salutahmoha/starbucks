@@ -1,0 +1,175 @@
+#home{
+    background: #dbbabf;
+    height: 710px;
+    padding-top: 160px;
+}
+#home .row{
+    margin-left: 60px;
+    margin-right: 40px;
+}
+.homepage-img{
+    width: 550px;
+    height: 450;
+}
+#homepage h4{
+    padding-top: 50px;
+}
+
+#shop{
+    text-align: center;
+    padding-top: 160px;
+}
+.shop-div{
+    width: 370px;
+    height: 270px;
+    background: #014b01;
+    border-radius: 10px;
+    padding-top: 70px;
+}
+#shop .shop-icons{
+    display: flex;
+    justify-content: center;
+    color: white;
+    gap: 13px;
+}
+#shop h5{
+    color: white;
+    font-size: 25px;
+}
+#shop h6{
+    color: white;
+    font-size: 25px;
+}
+#shop .btn{
+    color: white;
+}
+.shop-img{
+    width: 130px;
+    height: 150px;
+}
+
+#delivery{
+    padding-top: 40px;
+    text-align: center;
+}
+#delivery .row{
+    padding-top: 30px;
+}
+#delivery img{
+    width: 500px;
+    height: 280px;
+}
+.text{
+    text-align: start;
+}
+.text-container {
+    max-width: 500px; 
+    text-align: left; 
+}
+#app{
+    padding-top: 50px;
+    text-align: center;
+}
+
+#app .row{
+    padding-top: 30px;
+}
+
+#app img{
+    width: 500px;
+    height: 280px;
+}
+
+#about{
+    margin-top: 50px;
+    padding: 30px 0px;
+    background: #dbbabf;
+}
+#about img{
+    width: 500px;
+    height: 280px;
+}
+
+#contact{
+    text-align: center;
+    padding-top: 70px;
+}
+.contact-icons{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 25px;
+}
+.contact-icon{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #000;
+    color: white;
+    padding-top: 9px;
+}
+.contact-info{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 25px;
+}
+.contact-info h6{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 960px){
+    #home{
+        height: 700px;
+        padding-top: 60px;
+    }
+    .homepage-img{
+        width: 320px;
+        height: 250;
+        
+    }
+    #home .row{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #homepage h4{
+        padding-top: 10px;
+    }
+    #shop{
+        padding-top: 170px;
+    }
+    .shop-div{
+        width: 270px;
+        height: 220px;
+        margin-left: 10px;
+    }
+    #about img{
+        width: 300px;
+        height: 200px;
+    }
+    #app{
+        padding-top: 180px;
+    }
+    #app img{
+        width: 300px;
+        height: 200px;
+        padding-top: 10px;
+    }
+    #delivery img{
+        width: 300px;
+        height: 200px;
+    }
+    .copyright{
+        margin-bottom: 160px;
+    }
+    .contact-info{
+        gap: 20px;
+    }
+    .contact-info h6{
+        font-size: 13px;
+    }
+    .copyright h5{
+        font-size: 15px;
+    }
+}

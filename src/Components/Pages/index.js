@@ -1,0 +1,6 @@
+export * from "./Home"
+export * from "./Shop"
+export * from "./App"
+export * from "./Delivery"
+export * from "./About"
+export * from "./Contact"
